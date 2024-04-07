@@ -41,47 +41,47 @@ class AppTheme {
       ),
       // text theme data=============================
       textTheme: TextTheme(
-        displayLarge: GoogleFonts.cormorantGaramond(
-          fontSize: 20,
+        displayLarge: GoogleFonts.poppins(
+          fontSize: 40,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        displayMedium: GoogleFonts.cormorantGaramond(
+        displayMedium: GoogleFonts.poppins(
           fontSize: 18,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        displaySmall: GoogleFonts.cormorantGaramond(
+        displaySmall: GoogleFonts.poppins(
           fontSize: 16,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        titleLarge: GoogleFonts.cormorantGaramond(
+        titleLarge: GoogleFonts.poppins(
           fontSize: 18,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        titleMedium: GoogleFonts.cormorantGaramond(
+        titleMedium: GoogleFonts.poppins(
           fontSize: 14,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        titleSmall: GoogleFonts.cormorantGaramond(
+        titleSmall: GoogleFonts.poppins(
           fontSize: 12,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        bodyLarge: GoogleFonts.cormorantGaramond(
+        bodyLarge: GoogleFonts.poppins(
           fontSize: 16,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        bodyMedium: GoogleFonts.cormorantGaramond(
+        bodyMedium: GoogleFonts.poppins(
           fontSize: 14,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
         ),
-        bodySmall: GoogleFonts.cormorantGaramond(
+        bodySmall: GoogleFonts.poppins(
           fontSize: 12,
           fontWeight: FontWeight.bold,
           color: AppColors.textColor1,
