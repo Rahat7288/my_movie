@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'controllers/utils/app_theme.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,10 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My Movie App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: AppTheme.getAppTheme(),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
