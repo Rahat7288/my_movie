@@ -16,7 +16,10 @@ class CustomCardThumbnail extends StatelessWidget {
       decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
-              color: AppColors.borderColor.withOpacity(0.25),
+              color: AppColors.appBarColor.withOpacity(0.25),
+              blurRadius: 5,
+              spreadRadius: 1,
+              offset: const Offset(0, 3),
             )
           ],
           borderRadius: BorderRadius.circular(20),

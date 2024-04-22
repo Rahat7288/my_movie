@@ -109,6 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 forYouCardLayouts(movieLists),
+                Row(children: buildPageIndicatorWidget())
               ],
             ),
           ),
@@ -139,4 +140,23 @@ class _HomeScreenState extends State<HomeScreen> {
           },
         ),
       );
+//   indicator ====================
+  List<Widget> buildPageIndicatorWidget() {
+    List<Widget> list = [];
+    for (int i = 0; i < movieLists.length; i++) {
+      list.add(i == currentPage ? _indicator(true) : _indicator(false));
+    }
+    return list;
+  }
+
+  Widget _indicator(bool isActive) {
+    return AnimatedContainer(
+      duration: Duration(milliseconds: 150),
+      margin: EdgeInsets.symmetric(horizontal: 5.0),
+      height: 8.0,
+      decoration: BoxDecoration(
+        color: Colors.white,
+      ),
+    );
+  }
 }
